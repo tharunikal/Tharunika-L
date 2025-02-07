@@ -1,0 +1,27 @@
+/* Header.css */
+.header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .header h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .header p {
+    font-size: 1.5em;
+    color: #666;
+    font-weight: 300;
+  }
+  
+  .header:hover {
+    background-color: #eaeaea;
+  }
+  

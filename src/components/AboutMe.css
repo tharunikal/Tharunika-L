@@ -1,0 +1,22 @@
+/* About Me Styles */
+.about-me {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .about-me h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  .about-me p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
