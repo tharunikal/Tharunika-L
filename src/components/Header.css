@@ -1,27 +1,27 @@
-/* Header.css */
+/* Header Styles */
 .header {
-    text-align: center;
-    padding: 80px 20px;
-    background-color: #f8f8f8;
-    border-bottom: 1px solid #ddd;
-    transition: background-color 0.3s ease;
-    
-  }
-  
-  .header h1 {
-    font-size: 3em;
-    margin-bottom: 0.5em;
-    color: #333;
-    font-weight: 600;
-  }
-  
-  .header p {
-    font-size: 1.5em;
-    color: #666;
-    font-weight: 300;
-  }
-  
-  .header:hover {
-    background-color: #eaeaea;
-  }
-  
+  text-align: center;
+  padding: 80px 20px;
+  background-color: transparent; /* Ensure no background color */
+  border: none; /* Remove any borders */
+  box-shadow: none; /* Remove any box shadows */
+  transition: background-color 0.3s ease;
+  font-family: 'Carme', serif;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: #333;
+  font-weight: 600;
+}
+
+.header p {
+  font-size: 1.5em;
+  color: #666;
+  font-weight: 300;
+}
+
+.header:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Slightly more opaque on hover */
+}
